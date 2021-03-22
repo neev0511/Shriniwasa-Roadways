@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Shriniwasa Roadways Pvt. Ltd.</title>
+  </head>
+  <body bgcolor='#fff'>
+    <div class="btn">
+      <span class="fas fa-bars"></span>
+    </div>
+<nav class="sidebar">
+      <div class="text">
+        Menu</div>
+<ul>
+<li><a href="Home.html">Home</a></li>
+<li class="active">
+          <a href="#" class="feat-btn">About Us
+            <span class="fas fa-caret-down first"></span>
+          </a>
+          <ul class="feat-show">
+<li><a href="Profile.html">Profile</a></li>
+<li><a href="Services.html">Services</a></li>
+<li><a href="Vision.html">Vision & Mission</a></li>
+<li><a href="Team.html">Our Team</a></li>
+<li><a href="Quality Policy.html">Quality Policy</a></li>
+<li><a href="Focus.html">Our Focus</a></li>
+</ul>
+</li>
+<li><a href="Innovation.html">Innovation</a></li>
+<li><a href="Accreditations.html">Accreditations</a></li>
+<li><a href="Awards.html">Awards</a></li>
+<li><a href="Network.html">Network</a></li>
+<li><a href="Enquiry.html">Enquiry</a></li>
+<li>
+          <a href="#" class="serv-btn">Contact Us
+            <span class="fas fa-caret-down second"></span>
+          </a>
+          <ul class="serv-show">
+<li><a href="Directors.html">MD & Directors</a></li>
+<li><a href="Regional.html">Regional Office</a></li>
+</ul>
+</li>
+<li><a href="Careers.html">Careers</a></li>
+<li><a href="Clientele.html">Clientele</a></li>
+<li><a href="Infrastructure.html">Infrastructure</a></li>
+<li><a href="https://concorindia.co.in/Domcontainerquery.aspx">Shipment Tracking</a></li>
+</ul>
+</nav>
+<div class="form-box-services">
+  <img src="images/logo.jpg"><br>
+  <img src="images/image_03.jpg" class="logo">
+  <img src="images/image_04.jpg">
+  <img src="images/6.jpg">
+  <div class="left-header">
+    Services
+  </div>
+  <div class="left2"><br>
+    <b>Optimized Operations:</b>
+    <br><br>
+    Right from the start <b>Shriniwasa group</b> was driven by a passion to diversify to various sectors so as to cater to customer demands. A need was felt to offer all inclusive logistics solutions in the market. An approach was required that would not only serve present needs but also have sufficient provisions for future changes and expectations.
+    <br><br>
+    Our approach to cargo transportation involves treating your belongings like our own child. We have optimised and streamlined our supply chain management to provide for real time tracking and monitoring of parameters like packing, dunn ages, leak proofing, anti-pilferage devices, etc.
+    <br><br>
+    Led by a dynamic leadership, managed by expert industry managers and backed by untiring efforts of its employees, Shriniwasa group kept building on its strengths to reach a goal of multiple companies each of which have been growing in numbers and volumes. After having followed a step by step development process, today the group is able to successfully complement its core logistics services with well managed allied services.
+    <br><br>
+    <b>Impressive Infrastructure:</b>
+    <br><br>
+    With constant progress the group realised the need to reinforce its services with resilient infrastructure. The Shriniwasa group serves its clients through one of the strongest infrastructure facilities, expanding network and widespread warehouses throughout the country.
+    <br>
+  <img src="images/Table.jpg" width="300px" style="margin-left: 160px;"><br>
+    To support its own infrastructure, the group has contractual arrangements for another 185 road trucks and 56 trailers of 20/22 and 40 feet length. The combination of trucks, trailers, containers, cranes and forklifts help us effectively take care of all your needs in shortest possible time without having to depend on any third party.
+    <br><br>
+    <b>Widespread Warehouses:</b>
+    <br><br>
+    The Shriniwasa group understands the critical role warehouses play in strengthening the overall logistics services. The group has been the pioneer of providing unique containerized warehousing system. The system rids of the hassles that involve constructing covered warehouses by setting up sea worthy container warehouse anywhere in the country in minimum possible time.
+    <br>
+    The group has a network of 42 warehouses in 27 different locations spread all across the country out of which 3 are multiple stacking warehouses. The warehouses provide a total storage area of 2,62,000 sq ft. Through our warehouses we ensure that your goods are safe and secure all the time. Your belongings are more important to us than they are to you.
+    <br><br>
+    <b>National Network:</b>
+    <br><br>
+    A well planned and reliable network is the very backbone of logistics services. Hence, we have left no stone unturned in ensuring that we have an extensive network that never fails.
+    <br><br>
+    Today we cover a large part of the country through our very own network. It is our ambition to expand our services to cover every nook and corner of the country.
+    <br><br>
+    <b>Our USPs:</b>
+    <br><br>
+    The Shriniwasa group has been able to create a name for itself to which others in the industry look up to. The satisfaction of clients is at the heart of our solutions and services approach. Our differentiators which have helped us stand out in the crowd include:<br>
+      <ul class='ul'>
+        <li>Advanced multimodal logistics services.</li>
+        <li>Just in Time model to provide inventory.</li>
+        <li>Bulk transportation ideology to better structure the costs.</li>
+        <li>Special cargo handling; we treat your cargo like our own child.</li>
+        <li>SAP based operations and supply chain management.</li>
+        <li>Real time monitoring and tracking of cargo.</li>
+        <li>Provisions for no gap reporting.</li>
+      </ul>
+  </div>
+  <div class="right-services">
+    Our Locations
+  </div>
+    <img src="images/index.body.5.jpg" class="map">
+</div>
+
+<script>
+    $('.btn').click(function(){
+      $(this).toggleClass("click");
+      $('.sidebar').toggleClass("show");
+    });
+      $('.feat-btn').click(function(){
+        $('nav ul .feat-show').toggleClass("show");
+        $('nav ul .first').toggleClass("rotate");
+      });
+      $('.serv-btn').click(function(){
+        $('nav ul .serv-show').toggleClass("show1");
+        $('nav ul .second').toggleClass("rotate");
+      });
+      $('nav ul li').click(function(){
+        $(this).addClass("active").siblings().removeClass("active");
+      });
+    </script>
+
+  </body>
+</html>

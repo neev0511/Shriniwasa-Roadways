@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Shriniwasa Roadways Pvt. Ltd.</title>
+  </head>
+  <body bgcolor='#fff'>
+    <div class="btn">
+      <span class="fas fa-bars"></span>
+    </div>
+<nav class="sidebar">
+      <div class="text">
+        Menu</div>
+<ul>
+<li><a href="Home.html">Home</a></li>
+<li class="active">
+          <a href="#" class="feat-btn">About Us
+            <span class="fas fa-caret-down first"></span>
+          </a>
+          <ul class="feat-show">
+<li><a href="Profile.html">Profile</a></li>
+<li><a href="Services.html">Services</a></li>
+<li><a href="Vision.html">Vision & Mission</a></li>
+<li><a href="Team.html">Our Team</a></li>
+<li><a href="Quality Policy.html">Quality Policy</a></li>
+<li><a href="Focus.html">Our Focus</a></li>
+</ul>
+</li>
+<li><a href="Innovation.html">Innovation</a></li>
+<li><a href="Accreditations.html">Accreditations</a></li>
+<li><a href="Awards.html">Awards</a></li>
+<li><a href="Network.html">Network</a></li>
+<li><a href="Enquiry.html">Enquiry</a></li>
+<li>
+          <a href="#" class="serv-btn">Contact Us
+            <span class="fas fa-caret-down second"></span>
+          </a>
+          <ul class="serv-show">
+<li><a href="Directors.html">MD & Directors</a></li>
+<li><a href="Regional.html">Regional Office</a></li>
+</ul>
+</li>
+<li><a href="Careers.html">Careers</a></li>
+<li><a href="Clientele.html">Clientele</a></li>
+<li><a href="Infrastructure.html">Infrastructure</a></li>
+<li><a href="https://concorindia.co.in/Domcontainerquery.aspx">Shipment Tracking</a></li>
+</ul>
+</nav>
+<div class="form-box">
+  <img src="images/logo.jpg"><br>
+  <img src="images/image_03.jpg" class="logo">
+  <img src="images/image_04.jpg">
+  <img src="images/6.jpg">
+  <div class="left-header">
+    Our Profile
+  </div>
+  <div class="left2"><br>
+    <b>Evolution</b>
+    <br><br>
+    Every success story is founded on the courage of taking the first step. Shriniwasa group, a leading conglomerate specialising in providing comprehensive end-to-end multimodal logistics solutions began its journey with the visionary zeal of its founder Mr. P C Jain. A meritorious student all along, he was always educationally inclined and went on to do his Masters in Economics with top rank and honours.<br><br>
+
+The very first foundation stone of the business house was laid in 1974 when Mr. P C Jain made a promising start in the domain of road transportation. From the very start he showed a lot of promise and in the very first year of the companies inception he was handling 25,000 metric tons of scrap and paper every month.
+<br><br>
+The most momentous occasion came in 1987 when Shriniwasa group was finally established in Chennai. The Shriniwasa Roadways Private Limited (SRPL) got the honours of laying the foundations for the group and through its immense contribution has taken the annual turnover of the group to Rs 325 crores. Today, due to its advanced multimodal logistics services the group has emerged as the preferred choice of customers.
+<br><br>
+The group started off with road transportation and gradually expanded to cover other transportation modes as well. The highly evolved multimodal logistics solutions that Shriniwasa group employs to serve you incorporate all modes of transport. The different transportation channels utilised by the group include Rail, Wagons, Container Trains, Inland Waterways, Bulkers, Barjes, Volvos, Trailers, Tippers, Cranes, Forklift and trucks, etc. From the coasts to the remotest corners of India, the group caters and covers the entire hinterland. Taking forward its tradition of being the trendsetter, the Shriniwasa group plans to bring the air cargo transportation under its umbrella of multimodal logistics solutions.
+<br><br>
+An ISO 9001 certified company, the group has been successfully serving various clients representing MNCs, large trading houses and other corporate bodies.
+  </div>
+  <div class="right-profile">
+    Our Locations
+  </div>
+    <img src="images/index.body.5.jpg" class="map">
+</div>
+
+<script>
+    $('.btn').click(function(){
+      $(this).toggleClass("click");
+      $('.sidebar').toggleClass("show");
+    });
+      $('.feat-btn').click(function(){
+        $('nav ul .feat-show').toggleClass("show");
+        $('nav ul .first').toggleClass("rotate");
+      });
+      $('.serv-btn').click(function(){
+        $('nav ul .serv-show').toggleClass("show1");
+        $('nav ul .second').toggleClass("rotate");
+      });
+      $('nav ul li').click(function(){
+        $(this).addClass("active").siblings().removeClass("active");
+      });
+    </script>
+
+  </body>
+</html>
