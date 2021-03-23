@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Shriniwasa Roadways Pvt. Ltd.</title>
+  </head>
+  <body bgcolor='#fff'>
+    <div class="btn">
+      <span class="fas fa-bars"></span>
+    </div>
+<nav class="sidebar">
+      <div class="text">
+        Menu</div>
+<ul>
+<li class="active"><a href="Home.html">Home</a></li>
+<li>
+          <a href="#" class="feat-btn">About Us
+            <span class="fas fa-caret-down first"></span>
+          </a>
+          <ul class="feat-show">
+<li><a href="Profile.html">Profile</a></li>
+<li><a href="Services.html">Services</a></li>
+<li><a href="Vision.html">Vision & Mission</a></li>
+<li><a href="Team.html">Our Team</a></li>
+<li><a href="Quality Policy.html">Quality Policy</a></li>
+<li><a href="Focus.html">Our Focus</a></li>
+</ul>
+</li>
+<li><a href="Innovation.html">Innovation</a></li>
+<li><a href="Accreditations.html">Accreditations</a></li>
+<li><a href="Awards.html">Awards</a></li>
+<li><a href="Network.html">Network</a></li>
+<li><a href="Enquiry.html">Enquiry</a></li>
+<li>
+          <a href="#" class="serv-btn">Contact Us
+            <span class="fas fa-caret-down second"></span>
+          </a>
+          <ul class="serv-show">
+<li><a href="Directors.html">MD & Directors</a></li>
+<li><a href="Regional.html">Regional Office</a></li>
+</ul>
+</li>
+<li><a href="Careers.html">Careers</a></li>
+<li><a href="Clientele.html">Clientele</a></li>
+<li><a href="Infrastructure.html">Infrastructure</a></li>
+<li><a href="https://concorindia.co.in/Domcontainerquery.aspx">Shipment Tracking</a></li>
+</ul>
+</nav>
+<div class="form-box">
+  <img src="images/logo.jpg"><br>
+  <img src="images/image_03.jpg" class="logo">
+  <img src="images/image_04.jpg">
+  <img src="images/6.jpg">
+  <div class="left-header">
+    Innovation
+  </div>
+  <div class="left2">
+    <br>
+    Offering unique services by using a combination of Road, Rail & Sea Movement.
+    <br><br>
+    <u><b>Road Movement  :</b></u>
+    <br><br>
+    This age old movement is deployment of truck at the factory wherein after stuffing it goes to the end user or ware house for distribution. The minimum requirement for such movement is just a truck load.<br><br>
+
+    <img style="margin-left: -5px;" src ="images/Road movement.png">
+
+    <br><br>
+    <u><b>Rail Movement  :</b></u>
+      <br><br>
+      This is much safer movement which requires a little higher quantity wherein material is collected from various places and loaded into containers and train is flagged off with a minimum of 70 containers.<br><br>
+
+      To over come the accumulation we have tapped with other corporate who also move cargos to various places with such amalgamation. We can move just a truck load / container load of cargo and cater your requirements for various places.<br><br>
+
+      <img style="margin-left: 0px;"src="images\train.lnk"><br><br>
+
+      <u><b>Sea Movement  :</b></u>
+
+      <br><br>
+      
+    This is a new means of movement in domestic region wherein containerized vessels move in western coast of India. Here we collect cargo from factories and move it to Cochin port for onward movement by ship to Mumbai / Mundra / Kandla port and vice versa. To over come large requirement of a ship we have tied with shipping lines who have regular services with international and feeder container movement in western coast. These ships have a schedule movement and reaches shore destination as per schedule. The minimum required quantity for the said movement is just a container load i.e. 25 to 28 Mt.
+    <br><br>
+    <img src="images\sea movement.jpg">
+
+  <br><br>
+
+ 
+  </div>
+  <div class="right">
+    Our Locations
+  </div>
+    <img src ="images/index.body.5.jpg" class="map">
+</div>
+
+<script>
+    $('.btn').click(function(){
+      $(this).toggleClass("click");
+      $('.sidebar').toggleClass("show");
+    });
+      $('.feat-btn').click(function(){
+        $('nav ul .feat-show').toggleClass("show");
+        $('nav ul .first').toggleClass("rotate");
+      });
+      $('.serv-btn').click(function(){
+        $('nav ul .serv-show').toggleClass("show1");
+        $('nav ul .second').toggleClass("rotate");
+      });
+      $('nav ul li').click(function(){
+        $(this).addClass("active").siblings().removeClass("active");
+      });
+    </script>
+
+  </body>
+</html>
